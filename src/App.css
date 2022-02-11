@@ -1,0 +1,70 @@
+.main{
+  justify-content: center;
+}
+.App-header {
+  background: transparent;
+  width: 100%;
+  position: absolute;
+  height: 10vh;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+}
+
+.header-right{
+  width: 10%;
+  display: flex;
+}
+
+.header-text{
+  color: white;
+}
+
+.logo{
+  height: 30px;
+}
+
+.search-container{
+  background: white;
+  position: absolute;
+  left: 12.5%;
+  width: 75%;
+  height: 60px;
+  margin-top: -30px;
+  z-index: 99999;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 3px 1px white;
+  -moz-box-shadow: 1px 3px 1px white;
+  box-shadow: 1px 3px 0px rgb(223, 217, 217);  /* margin-left: -50px; */
+}
+.body-container{
+  position: absolute;
+  left: 12.5%;
+  width: 75%;
+  height: 60px;
+  margin-top: 40px;
+}
+
+.heading{
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.column {
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row {
+  display: flex;
+}
+
+
+.carousel-status{
+  display: none;
+  }
+
+
